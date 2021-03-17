@@ -1,0 +1,49 @@
+
+.main_container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content_container {
+    display: flex;
+    width: 80%;
+    margin-left: 22%;
+    flex-wrap: wrap;
+    margin-top: 3.8rem;
+}
+
+.content_container:first-child {
+    width: 100%;
+}
+
+.content_container:not(:first-child){
+    flex: 1;
+}
+
+@media (max-width: 900px){
+    .content_container {
+        margin-left: 32vw;
+    }
+}
+
+@media (max-width: 600px){
+    .content_container {
+        padding-top: 5vw;
+        flex-direction: column;
+    }
+}
+
+.tasks_container {
+    width: 60%;
+}
+
+
+
+.project_title {
+    width: 100vw;
+}
+
+.task_container {
+    background-color: #222831;
+    font-size: 1.9rem;
+}

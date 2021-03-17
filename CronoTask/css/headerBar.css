@@ -1,0 +1,43 @@
+.settings_menu a img {
+    height: 1.2rem;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+
+.header_bar {
+    margin: 0;
+    padding: 0rem 1rem;
+    background-color: #222831;
+    height: 3.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    position: fixed;
+    width: 100vw;
+}
+
+.logo_container > h3{
+    margin: 0 1rem ;
+    color: white;
+}
+
+.settings_menu {
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.settings_menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.settings_menu a:hover {
+    color: #884AB2;
+}
